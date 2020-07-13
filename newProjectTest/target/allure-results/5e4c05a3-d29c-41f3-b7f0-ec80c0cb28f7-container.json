@@ -1,0 +1,1 @@
+{"uuid":"5e4c05a3-d29c-41f3-b7f0-ec80c0cb28f7","name":"checkLogin()","children":["c178e7b2-b755-4410-9801-d9755a64eacd"],"befores":[],"afters":[{"name":"ClearCookiesAndLocalStorage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1594642999812,"stop":1594643005047}],"links":[],"start":1594642993254,"stop":1594643005186}
