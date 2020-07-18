@@ -11,7 +11,7 @@ public class LoginTest extends BaseTest {
     @Test
     public void checkLogin() {
         basePage.goToUrl(LOGIN_URL);
-        LoginPage
+        loginPage
                 .clickBtnL()
                 .enterLogin(LOGIN)
                 .enterPassword(PASSWORD)

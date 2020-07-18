@@ -22,9 +22,9 @@ import static common.config.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTest {
-    public WebDriver driver = CommonAction.createDriver();
+    protected WebDriver driver = CommonAction.createDriver();
     protected BasePage basePage = new BasePage(driver);
-    protected LoginPage LoginPage = new LoginPage(driver);
+    protected LoginPage loginPage = new LoginPage(driver);
     private static final Logger LOGGER = LoggerFactory.getLogger(BaseTest.class);
 
     static {
